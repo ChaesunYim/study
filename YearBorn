@@ -1,0 +1,19 @@
+YearBorn=0
+age=0
+message=""
+
+YearBorn = int(input ("Eenter the your of birth as four digits."))
+age = int(2022 - YearBorn)
+
+if 0<age<18:
+    message= "you are still baby"
+elif 18<=age<=27:
+    message= "welcome to being responsible"
+elif 28<=age<=45:
+    message= "now you know what life is really all about"
+elif 46<=age<=85:
+    message= "Congratulations, you outgrew most humans"
+elif age>85:
+    message= "That's not possible. Try agin"
+    
+print (message)
