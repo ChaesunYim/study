@@ -11,3 +11,55 @@ def main():
     print_box(num+3)
     
 main()
+
+
+______
+
+def print_box(numToprint):
+    print (" ----------- ")
+    print ('|  ', numToprint,'   |')
+    print (" ----------")
+    
+    
+    
+def main():
+    height = 0
+    base = 0
+    area = 0
+    height = int(input("Eenter the height: "))
+    base  = int(input("Eenter the base: "))
+    area = 0.5*base*height
+    
+    print_box(area)
+
+main()
+
+
+_______
+
+def print_box(numToprint):
+    print (" ----------- ")
+    print ('|  ', numToprint,'   |')
+    print (" ----------")
+    
+    
+def area_triangle(height, base):
+    area = 0
+    area = 0.5*base*height
+    return area
+    
+def main():
+    height = 0
+    base = 0
+    area = 0
+    
+    height = int (input("Enter the height: "))
+    base = int (input("Eenter the base: "))
+    
+    area=area_triangle(height, base)
+    
+    
+    print_box(area)
+
+main()
+
