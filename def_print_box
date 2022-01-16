@@ -1,0 +1,13 @@
+
+def print_box(numToprint):
+    print (" -------- ")
+    print ('|  ', numToprint,'   |')
+    print (" -------")
+    
+def main():
+    num = int(input("Eenter a number"))
+    print_box(num)
+    print_box(num+2)
+    print_box(num+3)
+    
+main()
