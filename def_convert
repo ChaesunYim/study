@@ -1,0 +1,44 @@
+def convert_to_celsius(x):
+    
+    return (x-32)/1.8 
+
+#Create a formula to change the temperature from Fahrenheit to Celsius and store it in the function.
+
+def convert_to_second(x):
+    
+    return (x/2.237)
+
+#Create a formula for converting miles per hour into meters and store them in another function.
+
+    
+def main():
+    select = int(input("Eenter 1, to convert Fahrenit temperature to Celsius\n"
+    "Eenter 2, to convert peed from miles per hour to meters per second: "))
+    
+#This makes users choose numbers. I'm going to store it in a variable.
+    
+    
+    if select == 1:
+        temp = input("enter temperature in farenheit: ")
+        print (convert_to_celsius(float(temp)), " degrees celcius.")
+
+#Use if statement and use the convert_to_celsius function.
+    
+    
+    elif select == 2:
+        speed = input("enter speed in miles per hour: ")
+        print (convert_to_second(float(speed)), "meters per second")
+
+#Use the elif statement and use the convers_to_second function.
+    
+    
+    else:
+        print("You entered it incorrectly. Please try again.")
+        
+#I used else statement, if users enter something other than 1 and 2, this sentence will be printed.
+
+
+    
+main ()
+    
+        
