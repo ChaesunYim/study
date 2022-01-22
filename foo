@@ -1,0 +1,22 @@
+def foo():
+    start = 0
+    end = 0
+    num = 0
+    total = 0
+    avg = 0
+    
+    end = int(input("Enter you ending value "))
+    
+    while (start < end):
+        
+        num = int(input("Enter a number: "))
+        total += num
+        start += 1
+    avg = total / start
+    return avg
+        
+def main ():
+    result = foo()
+    print("The average is: ", result)
+    
+main()
