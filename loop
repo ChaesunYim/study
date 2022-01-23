@@ -1,0 +1,13 @@
+def factorial(n):
+       if n<0:   
+            total=-1     
+       elif (n==0) or (n==1):   
+           total = 1 
+       else:   
+           total=1 
+           i=n 
+           while fact > 1:         
+                       total *=i   
+                       i-=1
+
+        return(total)
