@@ -1,0 +1,17 @@
+def isEven(x):
+    return (x%2==0)
+
+
+def main ():
+
+    num=int(input("Eenter a number and I will tell you if it's even or odd "))
+
+    if isEven(num)==True:
+        message="is even"
+    else:
+        message="is odd"
+
+    print(num, message)
+
+
+main()
