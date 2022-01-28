@@ -1,0 +1,25 @@
+def search(let, searchstring):
+    count = 0
+    lenght = len(searchstring)
+    
+    
+    while
+    for i in searchstring:
+        if i == let:
+            count+=1
+    return count
+ 
+def main():
+    
+    s=input("Eenter a paragraph to search into")
+    let = input("Enter a latter to search for")
+    
+    count=0
+    for i in searchstring: 
+        if i == "let":
+            count+=1
+            
+    print("The letter s, appears", count, "times")
+
+
+main ()
