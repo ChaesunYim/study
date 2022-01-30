@@ -1,0 +1,34 @@
+def cipher(text, key):
+    result = ''
+    for char in text:
+    
+        new_char = ord(char) + key
+    
+        if new_char > ord('z'):
+            new_char = new_char - 26
+  
+        result = result + chr(new_char)
+  
+    return result
+
+def decipher(text, key):
+     result = ''
+  
+     for char in text:
+    
+        new_char = ord(char) - key
+    
+        if new_char < ord('a'):
+            new_char = new_char + 26
+  
+        result = result + chr(new_char)
+  
+     return result
+
+
+
+p=input('Enter some text to be ciphered: ')
+enc=cipher(p, 7)
+print('Cipher:', enc)
+dec=decipher(enc, 7)
+print('Decipher:', dec)
