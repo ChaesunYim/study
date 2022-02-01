@@ -1,0 +1,6 @@
+most_tickets =0
+if(len(parking_tickets)>1):
+     most_tickets = parking_tickets[0]
+     for k in parking_tickets:
+             if k > most_tickets:
+                 most_tickets = k
